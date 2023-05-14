@@ -1,0 +1,13 @@
+﻿body {
+    background: url(../Images/signin/login-bg-ses.png) no-repeat center left!important;
+}
+
+@media (max-width:991px) {
+    body {
+        background: url(../Images/signin/login-bg-ses.png) no-repeat center left!important;
+    }
+}
+
+.login-left::after {
+    background-image: url(../Images/login-bg-left-Session.png) !important;
+}

@@ -1,0 +1,51 @@
+﻿a:link {
+    text-decoration: none !important;
+    color: #737374;
+}
+
+a:hover {
+    /*opacity: 1;*/
+    color: #f7971f;
+    /*font-weight: bolder;*/
+}
+
+ul {
+    list-style-type: none
+}
+
+.rpRootGroup {
+    padding-left: 10px;
+}
+
+thead {
+    /*background-color: #8cbcee54;
+    font-family: "Hiragino Maru Gothic ProN";
+    font-size: 12px;
+    letter-spacing: 0.52px;
+    line-height: 21px;*/
+}
+
+tr {
+    height: 50px
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }

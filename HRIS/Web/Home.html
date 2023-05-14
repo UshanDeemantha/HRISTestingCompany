@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HRIS</title>
+    <link rel="icon" href="Images/favicon.ico" type="image/ico">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="Styles/bootstrap-4-0-0.css">
+    <link rel="stylesheet" href="Styles/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/ionicons.min.css">
+    <link rel="stylesheet" href="Styles/AdminTCS.css">
+    <link rel="stylesheet" href="Styles/_all-skins.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+    <style>
+
+        .vert .carousel-item-next.carousel-item-left,
+        .vert .carousel-item-prev.carousel-item-right {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .vert .carousel-item-next,
+        .vert .active.carousel-item-right {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+        }
+
+        .vert .carousel-item-prev,
+        .vert .active.carousel-item-left {
+            -webkit-transform: translate3d(0,-100%, 0);
+            transform: translate3d(0,-100%, 0);
+        }
+    </style>
+
+    <style type="text/css">
+
+        .wrimagecard {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            text-align: left;
+            position: relative;
+            background: #2ca0da;
+            box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+            .wrimagecard .fa {
+                position: relative;
+                font-size: 50px;
+            }
+
+        .wrimagecard-topimage_header {
+            padding: 20px;
+        }
+
+        .wrimagecard-topimage a {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .wrimagecard-topimage_title {
+            position: relative;
+        }
+
+        .wrimagecard-topimage a {
+            border-bottom: none;
+            text-decoration: none;
+            color: #525c65;
+            transition: color 0.3s ease;
+        }
+
+        .content-wrappers {
+            min-height: auto;
+        }
+
+        .wrapper {
+            background-color: transparent !important;
+        }
+    </style>
+    <script type="text/javascript" src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            $.get("/GetSessionId.ashx", function (data) {
+                $("#result").val(data);
+                //alert(": " + $("#result").val());
+                $(function () {
+
+                    $('#result').on('click', function (e) { //click event
+                        e.preventDefault(); //prevent the click from redirecting you to "submitrequest.php"
+                        var datad = $("#result").val();
+                        $("#hidden_user_id").val(datad);
+                        var hidden_id = $('#hidden_user_id').val();
+                        var url = "http://localhost:82/?hidden_id=" + hidden_id;
+
+                        window.open(url);
+                        //OR
+                        //window.location.href = url;
+                    })
+                    //$("#result").bind("click", function () {
+                    //    var datad= $("#result").val();
+                    //    $("#texens").val(datad);
+                    //    alert($("#texens").val());
+                    //    //var datad = $("#result").val();
+                    //  //  $("#datas").val("datad");
+                    //    //var EMPCard = $("input[name='data']:checked").val();
+                    //  // alert(datad);
+                    //    //alert(": " + $("#datas").val());
+                    //});
+                });
+
+            })
+        })
+
+
+
+    </script>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+    <script type="text/javascript" src="../App_Themes/NewTheme/script/main.js"></script>
+    <div class="wrapper">
+        <input type="hidden" id="hidden_user_id" name="user" value="datad" />
+        <header class="main-header">
+            <nav class="navbar navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="Home.html" class="navbar-brand">
+                            <img src="Images/logo.png" style="height: 40px;">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <!-- Navbar Right Menu -->
+                    <div class="navbar-custom-menu">
+                        <div class="navbar-header">
+                            <a href="Login.aspx" class="navbar-brand">
+                                Logout
+                                <img src="Images/logout.png" style="height: 20px;">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /.navbar-custom-menu -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+        <!-- Full Width Column -->
+        <div class="content-wrappers">
+            <div class="container">
+                <h1 class="home-header">
+                    Human Resource Information <span>System</span>
+                </h1>
+                <!-- Main content -->
+                <section class="wr-homepage">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="Common/CompanyProfile/CompanyProfile.aspx" onclick="setInitialSession(['1','0'],'Company','Company Profile')">
+                                    <div class="wrimagecard-topimage_header">
+                                        <center>
+                                            <img src="Images/product-common.png" style="width: 104%;" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Common Information</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="HR/Employee/EmployeeList.aspx" onclick="setInitialSession(['1','0'],'Employee','Employee List')">
+                                    <div class="wrimagecard-topimage_header">
+                                        <center>
+                                            <img src="Images/product-hr.png" style="width: 97%;" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Employee Management</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="TimeAttendance/Master/EmployeeTimeSetup.aspx" onclick="setInitialSession(['1','0'],'Employee','Employee')">
+                                   <div class="wrimagecard-topimage_header">
+                                            <center>
+                                                <img src="Images/product-time.png" style="width: 100%;" alt="User Image">
+                                            </center>
+                                        </div>
+                                        <div class="wrimagecard-topimage_title">
+                                            <h6>Time and Attendance</h6>
+                                        </div>
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="Payroll/Default.aspx" onclick="setInitialSession(['1','0'],'Set Payroll','Change Pay Category')">
+                                    <!--<a href="Payroll/Default.aspx">-->
+                                    <div class="wrimagecard-topimage_header">
+                                        <center>
+                                            <img src="Images/product-payroll.png" style="width: 74%;" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Payroll  Management</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="LoanSetup/Default.aspx">
+                                    <div class="wrimagecard-topimage_header">
+                                        <center>
+                                            <img src="Images/loan.png" style="width: 96%;" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Loan Management</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="NoPermissions.aspx">
+                                    <div class="wrimagecard-topimage_header">
+                                        <center>
+                                            <img src="Images/performance.png" style="width: 97%;" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Performance Management</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrimagecard wrimagecard-topimage">
+                                <a href="http://localhost:82/" id="result">
+
+                                    <div class="wrimagecard-topimage_header dash-tile">
+                                        <center>
+                                            <img src="Images/dash.png" style="width: 104%; " alt="User Image">
+                                            <img src="Images/dash1.png" style="width: 104%; margin-left:25px" alt="User Image">
+                                        </center>
+                                    </div>
+                                    <div class="wrimagecard-topimage_title">
+                                        <h6>Dashboard</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="slider">
+                            <div class="active  carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>In A Very Short Period of Time Our Level of Guest Service & Professionalism Has Dramatically Improved...You Built A Much Stronger And Confident Team.</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Lynn W. Smith, General Manager<br>
+                                            Smuggler's Inn
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>"I can still remember some of Pete's lessons years later!   He was inspiring & he knew what he was talking about. I also felt he was genuine.  He seemed to really care about our getting better."</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Vern Stone, Sr., Transportation & Valet Services<br>
+                                            Lake of the Tourches Resort
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>Peter Scott's Programs Are All About Content & Core Values.</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Dr. Thomas Dullien, Executive Director Human Resources & HR Development<br>
+                                            Barona Resort
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>Peter Scott's Programs Are All About Content & Core Values.</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Dr. Thomas Dullien, Executive Director Human Resources & HR Development<br>
+                                            Barona Resort & Casino
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>I Was Skeptical About This Experiential Training, But It Was Phenomenal!</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Ana Zysko, Director of Training<br>
+                                            Inn Of The Mountain Gods Resort & Casino
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>Your Customer Service Training On November 11, 2003, Was One Of The Best Training Events I Have Ever Experienced!</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Robert Taschetta, Help Desk Manager<br>
+                                            Best Western International
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>It Was One Of The Best Trainings I've Ever Seen.  Our Gaming Board Attended A Session And Just Loved It!</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Marcus Diaz, Director of Training<br>
+                                            Casino Del Sol
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>Several Commented On How Mr. Scott Conveyed A Sense of Understanding And Genuine Desire To Provide Them With Concrete And Realistic Answers To The Questions And Concerns.</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Maria Meza, Training & Development Manager<br>
+                                            Tohono O'odham Gaming Authority
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>Since Our Seminar, Our Management Team Has Taken More Responsibility In Working With All New Hires.</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            Dominic R. Palmiers, CEO<br>
+                                            Odyssey Foods, LLC
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class=" carousel-item item">
+                                <blockquote class="blockquote">
+                                    <p>&quot;Our Most Concise Training To Date!</p>
+                                    <footer class="blockquote-footer">
+                                        <cite>
+                                            John Comeau<br>
+                                            Mohegan Sun Casino
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer wr-footer">
+            <div class="container">
+                <div class="pull-right hidden-xs">
+                    Version  1.0
+                </div>
+            </div>
+            <!-- /.container -->
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery 3 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="js/jquery.slimscroll.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.slider').slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 15000,
+                arrows: false
+            });
+        });
+    </script>
+</body>
+
+</html>

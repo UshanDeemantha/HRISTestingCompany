@@ -1,0 +1,146 @@
+﻿:root {
+    --black: #0000007d
+}
+.popstyle-2 {
+    height: calc(100vh - 120px);
+    top: 80px !important;
+    background-color: white;
+}
+
+.vertical-line {
+    position: relative;
+}
+
+    .vertical-line::before {
+        content: "";
+        position: absolute;
+        /*top: 100%;*/
+        left: -30px;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background: var(--black);
+    }
+
+.horizontal-line::before {
+    content: "";
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 0%;*/
+    transform: translate(-30px, 9px);
+    width: 28px;
+    height: 2px;
+    background: var(--black);
+}
+
+
+.rtLI {
+    position: relative;
+}
+
+    .rtLI::before {
+        content: "";
+        position: absolute;
+        /*top: 100%;*/
+        left: -30px;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background: var(--black);
+    }
+
+    .rtLI.rtLast::before {
+        content: "";
+        position: absolute;
+        /*top: 100%;*/
+        left: -30px;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 10px;
+        background: var(--black);
+    }
+
+.rtTop::before {
+    content: "";
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 0%;*/
+    transform: translate(-30px, 9px);
+    width: 28px;
+    height: 2px;
+    background: var(--black);
+}
+
+.rtFirst.rtLast.rtLI > .rtTop::before {
+    content: "";
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 0%;*/
+    transform: translate(-30px, 9px);
+    width: 0px;
+    height: 0px;
+    background: var(--black);
+}
+
+.rtFirst.rtLast.rtLI::before {
+    content: "";
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 0%;*/
+    /*transform: translate(-30px, 9px);*/
+    width: 0px;
+    height: 0px;    
+    /*background: black;*/
+}
+
+.rtBot::before {
+    content: "";
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 0%;*/
+    transform: translate(-30px, 9px);
+    width: 28px;
+    height: 2px;
+    background: var(--black);
+}
+
+.rtMid::before {
+    content: "";
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 0%;*/
+    transform: translate(-30px, 9px);
+    width: 28px;
+    height: 2px;
+    background: var(--black);
+}
+.rtFirst.rtLast > .rtTop > .rtIn {
+    font-size: 15px;
+    font-weight: bold;
+}
+ .rtFirst.rtLast.rtLI > .rtUL > .rtLI >  .rtTop > .rtIn {
+    font-weight: bold;
+}
+ .rtFirst.rtLast.rtLI > .rtUL > .rtLI > .rtBot > .rtIn {
+    font-weight: bold;
+}
+.rtFirst.rtLast.rtLI > .rtUL > .rtLI > .rtMid > .rtIn {
+    font-weight: bold;
+}
+
+#ContentPlaceHolder1_EmployeeAditionalInfoWizard_NewEmployeeAddContol1_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+#ContentPlaceHolder1_EmployeeSummaryList1_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+
+#ContentPlaceHolder1_EmployeeAditionalInfoWizard_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+#ContentPlaceHolder1_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+.rtTop, .rtBot, .rtMid {
+    display: flex;
+}

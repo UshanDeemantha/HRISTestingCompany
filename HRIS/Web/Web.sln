@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", ".", "{8833F857-BF1B-4356-8C59-50BB1C98A1D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e2d0fd73-1569-4f04-ab60-e7ce52049c98}|Common.BLL.dll;{DFAE0196-9AEF-4713-887B-F6663C8BEA27}|Common.DAL.dll;{70bdd3b0-3fd9-4c4c-ba8d-8005ba8d8b4b}|HR.BLL.dll;{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}|HR.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59778"
+		SlnRelativePath = "..\Web\"
+		StartServerOnDebug = "true"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{2DA108CE-2EEF-413A-A17E-E1A7337A8B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DAL", "..\DLL\Common.DAL\Common.DAL.csproj", "{DFAE0196-9AEF-4713-887B-F6663C8BEA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.BLL", "..\DLL\HR.BLL\HR.BLL.csproj", "{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.DAL", "..\DLL\HR.DAL\HR.DAL.csproj", "{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.BLL", "..\DLL\Common.BLL\Common.BLL.csproj", "{E2D0FD73-1569-4F04-AB60-E7CE52049C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8833F857-BF1B-4356-8C59-50BB1C98A1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8833F857-BF1B-4356-8C59-50BB1C98A1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8833F857-BF1B-4356-8C59-50BB1C98A1D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8833F857-BF1B-4356-8C59-50BB1C98A1D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DFAE0196-9AEF-4713-887B-F6663C8BEA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAE0196-9AEF-4713-887B-F6663C8BEA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAE0196-9AEF-4713-887B-F6663C8BEA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAE0196-9AEF-4713-887B-F6663C8BEA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F256F5CB-01F7-4334-A0FA-91C566BCFEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D0FD73-1569-4F04-AB60-E7CE52049C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D0FD73-1569-4F04-AB60-E7CE52049C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D0FD73-1569-4F04-AB60-E7CE52049C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D0FD73-1569-4F04-AB60-E7CE52049C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFAE0196-9AEF-4713-887B-F6663C8BEA27} = {2DA108CE-2EEF-413A-A17E-E1A7337A8B29}
+		{70BDD3B0-3FD9-4C4C-BA8D-8005BA8D8B4B} = {2DA108CE-2EEF-413A-A17E-E1A7337A8B29}
+		{F256F5CB-01F7-4334-A0FA-91C566BCFEE3} = {2DA108CE-2EEF-413A-A17E-E1A7337A8B29}
+		{E2D0FD73-1569-4F04-AB60-E7CE52049C98} = {2DA108CE-2EEF-413A-A17E-E1A7337A8B29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VersionFieldUsingAttrib = True
+		FetchGroupUsingAttrib = True
+		IndexUsingAttrib = False
+		ShowOldMenu = False
+		SolutionGuid = {6758F380-6D50-42B8-8D8C-258E7FB51941}
+	EndGlobalSection
+EndGlobal

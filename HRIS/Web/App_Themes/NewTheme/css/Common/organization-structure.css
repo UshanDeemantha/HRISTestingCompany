@@ -1,0 +1,122 @@
+﻿#PopupPane2 > .popstyle {
+    height: auto !important;
+}
+
+.rtFirst > .rtTop > .rtIn {
+    font-size: 2rem;
+    border: 2px solid transparent;
+}
+
+.rtFirst > ul {
+    height: 75vh;
+    overflow-y: scroll;
+    gap: 20px;
+    padding: 0px 80px 50px 50px;
+}
+
+    .rtFirst > ul > li {
+        border-bottom: 1px solid #00000038;
+        padding: 10px;
+    }
+.rtFirst > ul {
+    margin-bottom: 1.5rem !important;
+}
+
+.rtFirst > .rtUL > .rtLI > div {
+    font-weight: bold;
+}
+
+.rtIn {
+    border: 2px solid #2c70b691;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 3px 10px 3px 10px !important;
+}
+
+.btn-close {
+    position: absolute;
+    top: 20px;
+}
+
+.rtIn:hover {
+    border: 2px solid #2c70b6!important;
+}
+
+.rtLI {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    .rtLI > .rtTop, .rtMid, .rtBot {
+        display: grid;
+    }
+
+.rtLines {
+    padding-left: 0px !important;
+}
+
+    .rtLines > .rtLI {
+        margin-top: 0px;
+    }
+
+        .rtLines > .rtLI > .rtTop {
+            padding-left: 40px;
+            background-color: #2c70b6;
+            color: white;
+            font-weight: bolder;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+
+.tree__nested-items {
+    list-style-type: none;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tree__item {
+    line-height: 30px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.tree__item--nested {
+    position: relative;
+}
+
+    /* line */
+    .tree__item--nested:before {
+        content: "";
+        position: absolute;
+        bottom: 50%;
+        /* padding of container - 10px */
+        left: -70px;
+        /* padding of container - 10px */
+        width: 60px;
+        /* 3 * half height + half of border radius */
+        height: calc(150% + 7.5px);
+        border-bottom: inherit;
+        border-left: inherit;
+        border-bottom-left-radius: 4px;
+        /* don't overlap items */
+        z-index: -1;
+        border-bottom: 2px solid #2c70b691;
+        border-left: 2px solid #2c70b691;
+    }
+
+    /* arrow */
+    .tree__item--nested:after {
+        content: "";
+        position: absolute;
+        /* border-width - 1px */
+        left: -8px;
+        bottom: calc(50% - 6px);
+        border-color: transparent;
+        border-left-color: inherit;
+        border-style: inherit;
+        border-width: 7px;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 8px solid #2c70b691;
+    }

@@ -1,0 +1,111 @@
+﻿.popstyle-2 {
+    height: calc(100vh - 120px);
+    top: 80px !important;
+    background-color: white;
+}
+
+#ContentPlaceHolder1_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+#ContentPlaceHolder1_EmployeeSummaryList1_btnSearchSupplier_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+
+#ContentPlaceHolder1_EmployeeAditionalInfoWizard_btnOrganizationSelect_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+#ContentPlaceHolder1_btnSearchSupplier_ModalPopupExtender_backgroundElement {
+    background-color: #0000009c;
+}
+.rtTop, .rtBot, .rtMid {
+    display: flex;
+}
+
+/*
+.rtFirst > .rtUL > .rtLI > .rtTop > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('../../images/organization-structure/root.svg');
+}
+.rtFirst > .rtUL > .rtLI > .rtMid > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('../../images/organization-structure/root.svg');
+}
+.rtFirst > .rtUL > .rtLI.rtLast > .rtBot > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('../../images/organization-structure/root.svg');
+}*/
+/*    .rtUL > .rtLI > .rtTop > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 25px;
+    background-image: url('../../images/organization-structure/cp-branch.svg');
+}*/
+.rtLI > .rtUL > .rtLI > .rtTop > .rtSp,
+.rtUL > .rtLI > .rtMid > .rtSp,
+.rtLI.rtFirst > .rtUL > .rtLI > .rtMid > .rtSp,
+.rtLI.rtFirst > .rtUL > .rtLI.rtLast > .rtBot > .rtSp,
+.rtUL > .rtLI.rtLast > .rtBot > .rtSp {
+    border-bottom: 2px dotted black;
+    position: absolute;
+    width: 20px;
+    height: 12px;
+    margin-left: -20px;
+}
+.rtLI {
+    position: relative;
+    border-left: 2px dotted black;
+}
+    .rtLI.rtFirst > {
+        border-left : none;
+    }
+    /*.rtLI > .rtUL > .rtLI > .rtTop > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 25px;
+    background-image: url('../../images/organization-structure/cp-branch.svg');
+}*/
+    /*.rtUL > .rtLI > .rtMid > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 25px;
+    background-image: url('../../images/organization-structure/cp-branch.svg');
+}*/
+    /*.rtLI.rtFirst > .rtUL > .rtLI > .rtMid > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 25px;
+    background-image: none;
+}*/
+    /*.rtLI.rtFirst > .rtUL > .rtLI.rtLast > .rtBot > .rtSp {
+    background-image: none;
+}*/
+    /*.rtUL > .rtLI.rtLast > .rtBot > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 25px;
+    background-image: url('../../images/organization-structure/c-branch.svg');
+}*/
+    /*rtUL.rtLines > .rtLI > .rtTop > .rtSp {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: none;
+}*/
+    .rtUL {
+        padding-left: 20px !important;
+    }
+
+.rtIn {
+    padding-left: 6px;
+}
+.popstyleAdvance {
+    background-color: white;
+    border-radius: 4px;
+   /* position:fixed;*/
+}

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C331C334-2F64-4C82-B7DC-87478669967D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRM.Payroll.BLL</RootNamespace>
+    <AssemblyName>Payroll.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccpacIntergrate.cs" />
+    <Compile Include="Archive.cs" />
+    <Compile Include="BankAndBranch.cs" />
+    <Compile Include="Bonus.cs" />
+    <Compile Include="CryptoEngine.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="CurrencyTypesBLL.cs" />
+    <Compile Include="EmployeeAccounts.cs" />
+    <Compile Include="EmployeePay.cs" />
+    <Compile Include="EmployeeTransaction.cs" />
+    <Compile Include="FestivalAdvance.cs" />
+    <Compile Include="Loan.cs" />
+    <Compile Include="PaySetup.cs" />
+    <Compile Include="Posting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RawDataUpload.cs" />
+    <Compile Include="References.cs" />
+    <Compile Include="Reporting.cs" />
+    <Compile Include="SalaryAdvance.cs" />
+    <Compile Include="StandingOrders.cs" />
+    <Compile Include="TaxTableBLL.cs" />
+    <Compile Include="TaxTypesBLL.cs" />
+    <Compile Include="TextFileGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.BLL\Common.BLL.csproj">
+      <Project>{e2d0fd73-1569-4f04-ab60-e7ce52049c98}</Project>
+      <Name>Common.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Leave.BLL\Leave.BLL.csproj">
+      <Project>{24D65762-F32F-4E82-815F-405FB7A9B620}</Project>
+      <Name>Leave.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

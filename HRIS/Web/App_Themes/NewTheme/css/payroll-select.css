@@ -1,0 +1,150 @@
+﻿.selection-container {
+    display: grid;
+    height: calc(100vh - 80px);
+    place-content: center;
+    gap: 20px;
+    grid-template-columns: 300px 300px 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    height: calc(100vh - 250px)
+}
+
+/*.selections {
+    position: absolute;
+    height: 50vh;
+    display: grid;
+    top: -25vh;
+    grid-template-columns: minmax( 300px,1fr) minmax( 300px,1fr) minmax( 300px,1fr);
+    grid-gap: 50px;
+    left: 0px;
+    right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}*/
+img {
+    width:42px;
+}
+
+#contaner {
+    background-color: #ecf0f5;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important
+}
+
+.selections > div {
+    background-color: #2c70b6;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    border-radius:6px;
+    /*display: grid;
+    justify-content: center;
+    padding: 40px 10px;
+    text-align: center;
+    color: white;*/
+}
+
+/*.selections > div:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }*/
+
+h4 {
+    font-size: 28px;
+}
+
+.tooltip-container {
+    background-color: white;
+    border-radius: 6px;
+    color: black !important;
+}
+
+.tooltip-row {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.tooltip-text {
+    vertical-align: middle;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+#ctl00_MainContent_SetDefaultPayPeriod1_radbtnSave_input,
+#ctl00_MainContent_SetDefaultPayPeriod1_radbtnCancel_input {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+}
+
+/**Telerik RadComboBox style start here*/
+.telerik-radcombo {
+    width: 100% !important;
+}
+
+.rcbArrowCell {
+    display: none;
+}
+
+.rcbInput {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.RadComboBoxDropDown > div > ul {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    background-color: white;
+}
+
+.rcbItem {
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+}
+
+li.rcbHovered {
+    padding: 5px 15px 5px 15px;
+    background-color: #2c70b6;
+    color: white;
+    font-size: 14px;
+}
+/**Telerik RadComboBox style end here*/

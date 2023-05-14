@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Binary References" path="D:\Sino[HRM]\Web\Web\Bin\" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Common_MenuMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Common_MenuMasterPage.master" />
+  <event action="Analyze" type="Warning" name="Common_MenuMasterPage.master" path="D:\Sino[HRM]\Web\Web\Common\Common_MenuMasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Common_MenuMasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\Default.aspx" />
+  <event action="Analyze" type="Warning" name="Default.aspx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\Default.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\Default.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRCommen.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRCommen.ascx" />
+  <event action="Analyze" type="Warning" name="HRCommen.ascx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRCommen.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRCommen.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_HR.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_HR.ascx" />
+  <event action="Analyze" type="Warning" name="HRM_HR.ascx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_HR.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_HR.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_News.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_News.ascx" />
+  <event action="Analyze" type="Warning" name="HRM_News.ascx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_News.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_News.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_PayRoll.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_PayRoll.ascx" />
+  <event action="Analyze" type="Warning" name="HRM_PayRoll.ascx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_PayRoll.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_PayRoll.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_TimeAttendence.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_TimeAttendence.ascx" />
+  <event action="Analyze" type="Warning" name="HRM_TimeAttendence.ascx" path="D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_TimeAttendence.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CommonUserControls\HRM_TimeAttendence.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\CompanyProfile\CompanyProfile.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\CompanyProfile\CompanyProfile.aspx" />
+  <event action="Analyze" type="Warning" name="CompanyProfile.aspx" path="D:\Sino[HRM]\Web\Web\Common\CompanyProfile\CompanyProfile.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\CompanyProfile\CompanyProfile.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\Designation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\Designation.aspx" />
+  <event action="Analyze" type="Warning" name="Designation.aspx" path="D:\Sino[HRM]\Web\Web\Common\Designation\Designation.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Designation\Designation.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructure.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructure.aspx" />
+  <event action="Analyze" type="Warning" name="DesignationStructure.aspx" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructure.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructure.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructureControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructureControl.ascx" />
+  <event action="Analyze" type="Warning" name="DesignationStructureControl.ascx" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructureControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Designation\DesignationStructureControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationView.aspx" />
+  <event action="Analyze" type="Warning" name="DesignationView.aspx" path="D:\Sino[HRM]\Web\Web\Common\Designation\DesignationView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Designation\DesignationView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EditEmployee.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EditEmployee.aspx" />
+  <event action="Analyze" type="Warning" name="EditEmployee.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EditEmployee.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EditEmployee.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\Employee.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\Employee.aspx" />
+  <event action="Analyze" type="Success" name="Employee.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\Employee.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeExcelDataUpload.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeExcelDataUpload.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeExcelDataUpload.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeExcelDataUpload.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeExcelDataUpload.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeGrade.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeGrade.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeGrade.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeGrade.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeGrade.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeList.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeList.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeList.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeList.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSearch.ascx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSearch.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSearch.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSummaryList.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSummaryList.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSummaryList.ascx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSummaryList.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmployeeSummaryList.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmploymentType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmploymentType.aspx" />
+  <event action="Analyze" type="Warning" name="EmploymentType.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\EmploymentType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Employee\EmploymentType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Nationality\Nationality.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Nationality\Nationality.aspx" />
+  <event action="Analyze" type="Warning" name="Nationality.aspx" path="D:\Sino[HRM]\Web\Web\Common\Nationality\Nationality.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Nationality\Nationality.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\NoPermissions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\NoPermissions.aspx" />
+  <event action="Analyze" type="Warning" name="NoPermissions.aspx" path="D:\Sino[HRM]\Web\Web\Common\NoPermissions.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\NoPermissions.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationalView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationalView.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationalView.aspx" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationalView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationalView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationLevels.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationLevels.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationLevels.aspx" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationLevels.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationLevels.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStructure.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStructure.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationStructure.aspx" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStructure.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStructure.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Warning" name="OrganizationStucture.ascx" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStucture.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationStucture.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationType.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationType.aspx" path="D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Organization\OrganizationType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Race\Race.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Race\Race.aspx" />
+  <event action="Analyze" type="Warning" name="Race.aspx" path="D:\Sino[HRM]\Web\Web\Common\Race\Race.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Race\Race.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobCategory.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobCategory.aspx" />
+  <event action="Analyze" type="Warning" name="JobCategory.aspx" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobCategory.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Reference\JobCategory.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobGrade.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobGrade.aspx" />
+  <event action="Analyze" type="Warning" name="JobGrade.aspx" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobGrade.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Reference\JobGrade.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobSpecification.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobSpecification.aspx" />
+  <event action="Analyze" type="Warning" name="JobSpecification.aspx" path="D:\Sino[HRM]\Web\Web\Common\Reference\JobSpecification.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Reference\JobSpecification.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\ReportCommon.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\ReportCommon.aspx" />
+  <event action="Analyze" type="Success" name="ReportCommon.aspx" path="D:\Sino[HRM]\Web\Web\Common\ReportCommon.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Reports\PasportVisaStatusReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Reports\PasportVisaStatusReport.aspx" />
+  <event action="Analyze" type="Success" name="PasportVisaStatusReport.aspx" path="D:\Sino[HRM]\Web\Web\Common\Reports\PasportVisaStatusReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\AdminPanel.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\AdminPanel.aspx" />
+  <event action="Analyze" type="Warning" name="AdminPanel.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\AdminPanel.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\AdminPanel.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\AssignLevelWiseRightsToUser.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\AssignLevelWiseRightsToUser.aspx" />
+  <event action="Analyze" type="Warning" name="AssignLevelWiseRightsToUser.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\AssignLevelWiseRightsToUser.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\AssignLevelWiseRightsToUser.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\BlockUser.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\BlockUser.aspx" />
+  <event action="Analyze" type="Warning" name="BlockUser.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\BlockUser.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\BlockUser.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\ChangePassword.aspx" />
+  <event action="Analyze" type="Warning" name="ChangePassword.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\ChangePassword.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\ChangePassword.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\EnterRegisrationInformation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\EnterRegisrationInformation.aspx" />
+  <event action="Analyze" type="Warning" name="EnterRegisrationInformation.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\EnterRegisrationInformation.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\EnterRegisrationInformation.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\GenerateSerial.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\GenerateSerial.aspx" />
+  <event action="Analyze" type="Warning" name="GenerateSerial.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\GenerateSerial.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\GenerateSerial.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemApplication.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemApplication.aspx" />
+  <event action="Analyze" type="Warning" name="SystemApplication.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemApplication.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemApplication.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemForms.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemForms.aspx" />
+  <event action="Analyze" type="Warning" name="SystemForms.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemForms.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemForms.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemMenu.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemMenu.aspx" />
+  <event action="Analyze" type="Warning" name="SystemMenu.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemMenu.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemMenu.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemPermission.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemPermission.aspx" />
+  <event action="Analyze" type="Warning" name="SystemPermission.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemPermission.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemPermission.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUserPermissions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUserPermissions.aspx" />
+  <event action="Analyze" type="Warning" name="SystemUserPermissions.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUserPermissions.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemUserPermissions.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUsers.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUsers.aspx" />
+  <event action="Analyze" type="Warning" name="SystemUsers.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\SystemUsers.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\SystemUsers.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UploadFormats.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UploadFormats.aspx" />
+  <event action="Analyze" type="Warning" name="UploadFormats.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UploadFormats.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UploadFormats.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserCompany.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserCompany.aspx" />
+  <event action="Analyze" type="Warning" name="UserCompany.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserCompany.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UserCompany.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemApplications.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemApplications.ascx" />
+  <event action="Analyze" type="Warning" name="SystemApplications.ascx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemApplications.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemApplications.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemForms.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemForms.ascx" />
+  <event action="Analyze" type="Warning" name="SystemForms.ascx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemForms.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemForms.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemMenu.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemMenu.ascx" />
+  <event action="Analyze" type="Warning" name="SystemMenu.ascx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemMenu.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UserControls\SystemMenu.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserPayrollPermission.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserPayrollPermission.aspx" />
+  <event action="Analyze" type="Warning" name="UserPayrollPermission.aspx" path="D:\Sino[HRM]\Web\Web\Common\Settings\UserPayrollPermission.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Common\Settings\UserPayrollPermission.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\DashBoard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\DashBoard.aspx" />
+  <event action="Analyze" type="Success" name="DashBoard.aspx" path="D:\Sino[HRM]\Web\Web\DashBoard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\EmptyTemplateMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\EmptyTemplateMasterPage.master" />
+  <event action="Analyze" type="Warning" name="EmptyTemplateMasterPage.master" path="D:\Sino[HRM]\Web\Web\EmptyTemplateMasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\EmptyTemplateMasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Certification\Certification.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Certification\Certification.aspx" />
+  <event action="Analyze" type="Warning" name="Certification.aspx" path="D:\Sino[HRM]\Web\Web\HR\Certification\Certification.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Certification\Certification.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Course\Course.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Course\Course.aspx" />
+  <event action="Analyze" type="Warning" name="Course.aspx" path="D:\Sino[HRM]\Web\Web\HR\Course\Course.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Course\Course.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Course\CourseType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Course\CourseType.aspx" />
+  <event action="Analyze" type="Warning" name="CourseType.aspx" path="D:\Sino[HRM]\Web\Web\HR\Course\CourseType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Course\CourseType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeAditionalInfo.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeAditionalInfo.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeAditionalInfo.aspx" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeAditionalInfo.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeAditionalInfo.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeMembership.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeMembership.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeMembership.aspx" path="D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeMembership.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\EmployeeMembership.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoloyeeSportsControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoloyeeSportsControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmoloyeeSportsControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoloyeeSportsControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoloyeeSportsControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoployeeMembershipControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoployeeMembershipControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmoployeeMembershipControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoployeeMembershipControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmoployeeMembershipControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeAditionalInfoContol.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeAditionalInfoContol.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeAditionalInfoContol.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeAditionalInfoContol.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeAditionalInfoContol.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeCertificationControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeCertificationControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeCertificationControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeCertificationControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeCertificationControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeChildControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeChildControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeChildControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeChildControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeChildControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeFluencyrControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeFluencyrControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeFluencyrControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeFluencyrControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeFluencyrControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeQulificationControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeQulificationControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeQulificationControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeQulificationControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeQulificationControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSearch.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSearch.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSearch.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSkillsControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSkillsControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSkillsControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSkillsControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSkillsControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSpouseControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSpouseControl.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSpouseControl.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSpouseControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSpouseControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSummaryList.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSummaryList.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSummaryList.ascx" path="D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSummaryList.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Employee\UserControls\EmployeeSummaryList.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Event\Event.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Event\Event.aspx" />
+  <event action="Analyze" type="Warning" name="Event.aspx" path="D:\Sino[HRM]\Web\Web\HR\Event\Event.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Event\Event.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Event\EventType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Event\EventType.aspx" />
+  <event action="Analyze" type="Warning" name="EventType.aspx" path="D:\Sino[HRM]\Web\Web\HR\Event\EventType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Event\EventType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Fluency\Fluency.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Fluency\Fluency.aspx" />
+  <event action="Analyze" type="Warning" name="Fluency.aspx" path="D:\Sino[HRM]\Web\Web\HR\Fluency\Fluency.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Fluency\Fluency.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Fluency\FluencyType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Fluency\FluencyType.aspx" />
+  <event action="Analyze" type="Warning" name="FluencyType.aspx" path="D:\Sino[HRM]\Web\Web\HR\Fluency\FluencyType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Fluency\FluencyType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\HR_MenuMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\HR_MenuMasterPage.master" />
+  <event action="Analyze" type="Warning" name="HR_MenuMasterPage.master" path="D:\Sino[HRM]\Web\Web\HR\HR_MenuMasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\HR_MenuMasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Institutes\Institutes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Institutes\Institutes.aspx" />
+  <event action="Analyze" type="Warning" name="Institutes.aspx" path="D:\Sino[HRM]\Web\Web\HR\Institutes\Institutes.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Institutes\Institutes.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Institutes\InstituteType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Institutes\InstituteType.aspx" />
+  <event action="Analyze" type="Warning" name="InstituteType.aspx" path="D:\Sino[HRM]\Web\Web\HR\Institutes\InstituteType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Institutes\InstituteType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Languages\Language.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Languages\Language.aspx" />
+  <event action="Analyze" type="Warning" name="Language.aspx" path="D:\Sino[HRM]\Web\Web\HR\Languages\Language.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Languages\Language.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Membership\Membership.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Membership\Membership.aspx" />
+  <event action="Analyze" type="Warning" name="Membership.aspx" path="D:\Sino[HRM]\Web\Web\HR\Membership\Membership.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Membership\Membership.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Membership\MembershipType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Membership\MembershipType.aspx" />
+  <event action="Analyze" type="Warning" name="MembershipType.aspx" path="D:\Sino[HRM]\Web\Web\HR\Membership\MembershipType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Membership\MembershipType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\NoPermissions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\NoPermissions.aspx" />
+  <event action="Analyze" type="Warning" name="NoPermissions.aspx" path="D:\Sino[HRM]\Web\Web\HR\NoPermissions.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\NoPermissions.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\NoticeBoard\NoticeBoard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\NoticeBoard\NoticeBoard.aspx" />
+  <event action="Analyze" type="Warning" name="NoticeBoard.aspx" path="D:\Sino[HRM]\Web\Web\HR\NoticeBoard\NoticeBoard.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\NoticeBoard\NoticeBoard.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Skills\Skill.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Skills\Skill.aspx" />
+  <event action="Analyze" type="Warning" name="Skill.aspx" path="D:\Sino[HRM]\Web\Web\HR\Skills\Skill.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Skills\Skill.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Skills\SkillGrade.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Skills\SkillGrade.aspx" />
+  <event action="Analyze" type="Warning" name="SkillGrade.aspx" path="D:\Sino[HRM]\Web\Web\HR\Skills\SkillGrade.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Skills\SkillGrade.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\HR\Sport\Sport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\HR\Sport\Sport.aspx" />
+  <event action="Analyze" type="Warning" name="Sport.aspx" path="D:\Sino[HRM]\Web\Web\HR\Sport\Sport.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\HR\Sport\Sport.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Login.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Login.aspx" />
+  <event action="Analyze" type="Warning" name="Login.aspx" path="D:\Sino[HRM]\Web\Web\Login.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Login.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\Category.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\Category.aspx" />
+  <event action="Analyze" type="Warning" name="Category.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\Category.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Accpac\Category.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\EmployeeSettings.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\EmployeeSettings.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeSettings.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\EmployeeSettings.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Accpac\EmployeeSettings.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\GenerateValues.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\GenerateValues.aspx" />
+  <event action="Analyze" type="Warning" name="GenerateValues.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Accpac\GenerateValues.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Accpac\GenerateValues.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BancBranchControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BancBranchControl.ascx" />
+  <event action="Analyze" type="Warning" name="BancBranchControl.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BancBranchControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Bank\BancBranchControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BankBranchPopup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BankBranchPopup.aspx" />
+  <event action="Analyze" type="Warning" name="BankBranchPopup.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\BankBranchPopup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Bank\BankBranchPopup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\Branches.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\Branches.aspx" />
+  <event action="Analyze" type="Warning" name="Branches.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\Branches.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Bank\Branches.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\CreateBank.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\CreateBank.aspx" />
+  <event action="Analyze" type="Warning" name="CreateBank.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Bank\CreateBank.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Bank\CreateBank.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CoinDenomination.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CoinDenomination.aspx" />
+  <event action="Analyze" type="Success" name="CoinDenomination.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CoinDenomination.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyNotes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyNotes.aspx" />
+  <event action="Analyze" type="Warning" name="CurrencyNotes.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyNotes.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyNotes.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyType.aspx" />
+  <event action="Analyze" type="Warning" name="CurrencyType.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Currency\CurrencyType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Default.aspx" />
+  <event action="Analyze" type="Warning" name="Default.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Default.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Default.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeePaySetup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeePaySetup.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeePaySetup.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeePaySetup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeePaySetup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSearch.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch_PayCategory.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch_PayCategory.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSearch_PayCategory.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch_PayCategory.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeSearch_PayCategory.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeStaticData.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeStaticData.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeStaticData.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeStaticData.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\EmployeeStaticData.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\ImportEmployeesFromExcel.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\ImportEmployeesFromExcel.aspx" />
+  <event action="Analyze" type="Warning" name="ImportEmployeesFromExcel.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\ImportEmployeesFromExcel.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\ImportEmployeesFromExcel.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\SalaryAdvance.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\SalaryAdvance.aspx" />
+  <event action="Analyze" type="Warning" name="SalaryAdvance.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Employee\SalaryAdvance.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Employee\SalaryAdvance.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\FestivalAdvance\FestivalAdvance.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\FestivalAdvance\FestivalAdvance.aspx" />
+  <event action="Analyze" type="Warning" name="FestivalAdvance.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\FestivalAdvance\FestivalAdvance.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\FestivalAdvance\FestivalAdvance.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\FrontPage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\FrontPage.aspx" />
+  <event action="Analyze" type="Warning" name="FrontPage.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\FrontPage.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\FrontPage.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\Loan.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\Loan.aspx" />
+  <event action="Analyze" type="Warning" name="Loan.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\Loan.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Loan\Loan.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanSettlement.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanSettlement.aspx" />
+  <event action="Analyze" type="Warning" name="LoanSettlement.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanSettlement.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanSettlement.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanType.aspx" />
+  <event action="Analyze" type="Warning" name="LoanType.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Loan\LoanType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\NoPermissions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\NoPermissions.aspx" />
+  <event action="Analyze" type="Warning" name="NoPermissions.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\NoPermissions.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\NoPermissions.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayHistoryDefault.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayHistoryDefault.aspx" />
+  <event action="Analyze" type="Warning" name="PayHistoryDefault.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PayHistoryDefault.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PayHistoryDefault.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Payroll_MasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Payroll_MasterPage.master" />
+  <event action="Analyze" type="Warning" name="Payroll_MasterPage.master" path="D:\Sino[HRM]\Web\Web\Payroll\Payroll_MasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Payroll_MasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistory.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistory.master" />
+  <event action="Analyze" type="Warning" name="PayrollHistory.master" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistory.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PayrollHistory.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistoryUnderConstruction.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistoryUnderConstruction.aspx" />
+  <event action="Analyze" type="Warning" name="PayrollHistoryUnderConstruction.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PayrollHistoryUnderConstruction.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PayrollHistoryUnderConstruction.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\EmployeeTransaction.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\EmployeeTransaction.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeTransaction.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\EmployeeTransaction.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PaySetup\EmployeeTransaction.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayCategory.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayCategory.aspx" />
+  <event action="Analyze" type="Warning" name="PayCategory.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayCategory.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayCategory.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayPeriods.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayPeriods.aspx" />
+  <event action="Analyze" type="Warning" name="PayPeriods.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayPeriods.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayPeriods.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayrollSetup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayrollSetup.aspx" />
+  <event action="Analyze" type="Warning" name="PayrollSetup.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayrollSetup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PaySetup\PayrollSetup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\UserFields.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\UserFields.aspx" />
+  <event action="Analyze" type="Warning" name="UserFields.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\PaySetup\UserFields.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\PaySetup\UserFields.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationStructureControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationStructureControl.ascx" />
+  <event action="Analyze" type="Warning" name="DesignationStructureControl.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationStructureControl.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\References\DesignationStructureControl.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationView.aspx" />
+  <event action="Analyze" type="Warning" name="DesignationView.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\References\DesignationView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\References\DesignationView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationalView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationalView.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationalView.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationalView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationalView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Warning" name="OrganizationStucture.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationStucture.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\References\OrganizationStucture.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\ReportingMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\ReportingMasterPage.master" />
+  <event action="Analyze" type="Warning" name="ReportingMasterPage.master" path="D:\Sino[HRM]\Web\Web\Payroll\ReportingMasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\ReportingMasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\EmployeePayments.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\EmployeePayments.aspx" />
+  <event action="Analyze" type="Success" name="EmployeePayments.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\EmployeePayments.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\HistoryReports\HistoryReports.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\HistoryReports\HistoryReports.aspx" />
+  <event action="Analyze" type="Success" name="HistoryReports.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\HistoryReports\HistoryReports.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\SalaryAdvanceReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\SalaryAdvanceReport.aspx" />
+  <event action="Analyze" type="Success" name="SalaryAdvanceReport.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\SalaryAdvanceReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\SetDefaultPayPeriod.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\SetDefaultPayPeriod.ascx" />
+  <event action="Analyze" type="Warning" name="SetDefaultPayPeriod.ascx" path="D:\Sino[HRM]\Web\Web\Payroll\SetDefaultPayPeriod.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\SetDefaultPayPeriod.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\StandingOrders\StandingOrders.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\StandingOrders\StandingOrders.aspx" />
+  <event action="Analyze" type="Warning" name="StandingOrders.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\StandingOrders\StandingOrders.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\StandingOrders\StandingOrders.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxTable.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxTable.aspx" />
+  <event action="Analyze" type="Warning" name="TaxTable.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxTable.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxTable.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxType.aspx" />
+  <event action="Analyze" type="Warning" name="TaxType.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tax\TaxType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\ClosePayroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\ClosePayroll.aspx" />
+  <event action="Analyze" type="Warning" name="ClosePayroll.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\ClosePayroll.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\ClosePayroll.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\CreateRFRFile.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\CreateRFRFile.aspx" />
+  <event action="Analyze" type="Warning" name="CreateRFRFile.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\CreateRFRFile.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\CreateRFRFile.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayHistory.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayHistory.aspx" />
+  <event action="Analyze" type="Warning" name="PayHistory.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayHistory.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\PayHistory.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayJournalTransfer.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayJournalTransfer.aspx" />
+  <event action="Analyze" type="Warning" name="PayJournalTransfer.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\PayJournalTransfer.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\PayJournalTransfer.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\SIFFileCreation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\SIFFileCreation.aspx" />
+  <event action="Analyze" type="Warning" name="SIFFileCreation.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\SIFFileCreation.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\SIFFileCreation.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\TextFileGeneration.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\TextFileGeneration.aspx" />
+  <event action="Analyze" type="Warning" name="TextFileGeneration.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Tools\TextFileGeneration.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Tools\TextFileGeneration.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\BonusForm.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\BonusForm.aspx" />
+  <event action="Analyze" type="Warning" name="BonusForm.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\BonusForm.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\BonusForm.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\CurrencyRates.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\CurrencyRates.aspx" />
+  <event action="Analyze" type="Warning" name="CurrencyRates.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\CurrencyRates.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\CurrencyRates.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\PostPayrollData.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\PostPayrollData.aspx" />
+  <event action="Analyze" type="Warning" name="PostPayrollData.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\PostPayrollData.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\PostPayrollData.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\RawDataUploader.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\RawDataUploader.aspx" />
+  <event action="Analyze" type="Warning" name="RawDataUploader.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\RawDataUploader.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\RawDataUploader.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\TransactionBulkEntry.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\TransactionBulkEntry.aspx" />
+  <event action="Analyze" type="Warning" name="TransactionBulkEntry.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\TransactionBulkEntry.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\TransactionBulkEntry.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\UnpostPayroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\UnpostPayroll.aspx" />
+  <event action="Analyze" type="Warning" name="UnpostPayroll.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Transactions\UnpostPayroll.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\Transactions\UnpostPayroll.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\UnderConstruction.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\Payroll\UnderConstruction.aspx" />
+  <event action="Analyze" type="Warning" name="UnderConstruction.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\UnderConstruction.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\Payroll\UnderConstruction.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\BeginPasswordReset.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\BeginPasswordReset.aspx" />
+  <event action="Analyze" type="Warning" name="BeginPasswordReset.aspx" path="D:\Sino[HRM]\Web\Web\ResetPassword\BeginPasswordReset.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\ResetPassword\BeginPasswordReset.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\NewPassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\NewPassword.aspx" />
+  <event action="Analyze" type="Warning" name="NewPassword.aspx" path="D:\Sino[HRM]\Web\Web\ResetPassword\NewPassword.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\ResetPassword\NewPassword.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\ResetPassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\ResetPassword\ResetPassword.aspx" />
+  <event action="Analyze" type="Warning" name="ResetPassword.aspx" path="D:\Sino[HRM]\Web\Web\ResetPassword\ResetPassword.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\ResetPassword\ResetPassword.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\SessionTimeout.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\SessionTimeout.aspx" />
+  <event action="Analyze" type="Warning" name="SessionTimeout.aspx" path="D:\Sino[HRM]\Web\Web\SessionTimeout.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\SessionTimeout.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\SystemException.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\SystemException.aspx" />
+  <event action="Analyze" type="Warning" name="SystemException.aspx" path="D:\Sino[HRM]\Web\Web\SystemException.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\SystemException.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationStructure.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationStructure.ascx" />
+  <event action="Analyze" type="Warning" name="DesignationStructure.ascx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationStructure.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationStructure.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationView.aspx" />
+  <event action="Analyze" type="Warning" name="DesignationView.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Common\DesignationView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationStucture.ascx" />
+  <event action="Analyze" type="Warning" name="OrganizationStucture.ascx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationStucture.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationStucture.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationView.aspx" />
+  <event action="Analyze" type="Warning" name="OrganizationView.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationView.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Common\OrganizationView.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApplication.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApplication.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveApplication.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApplication.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApplication.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApprove.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApprove.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveApprove.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApprove.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveApprove.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveEntitlement.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveEntitlement.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveEntitlement.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveEntitlement.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveEntitlement.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveShedule.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveShedule.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveShedule.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveShedule.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveShedule.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveSheduler.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveSheduler.ascx" />
+  <event action="Analyze" type="Warning" name="LeaveSheduler.ascx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveSheduler.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveSheduler.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveTypes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveTypes.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveTypes.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveTypes.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveTypes.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveWorkflow.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveWorkflow.aspx" />
+  <event action="Analyze" type="Warning" name="LeaveWorkflow.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveWorkflow.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Leave\LeaveWorkflow.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\Calender.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\Calender.aspx" />
+  <event action="Analyze" type="Warning" name="Calender.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\Calender.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\Calender.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\DayTypes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\DayTypes.aspx" />
+  <event action="Analyze" type="Warning" name="DayTypes.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\DayTypes.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\DayTypes.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeSearch.ascx" />
+  <event action="Analyze" type="Warning" name="EmployeeSearch.ascx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeSearch.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeSearch.ascx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeTimeSetup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeTimeSetup.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeTimeSetup.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeTimeSetup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\EmployeeTimeSetup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\OTType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\OTType.aspx" />
+  <event action="Analyze" type="Warning" name="OTType.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\OTType.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\OTType.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\RosterGroup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\RosterGroup.aspx" />
+  <event action="Analyze" type="Warning" name="RosterGroup.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Master\RosterGroup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Master\RosterGroup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\NoPermissions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\NoPermissions.aspx" />
+  <event action="Analyze" type="Warning" name="NoPermissions.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\NoPermissions.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\NoPermissions.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Reports\GenerateTimeAttendanceReports.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Reports\GenerateTimeAttendanceReports.aspx" />
+  <event action="Analyze" type="Success" name="GenerateTimeAttendanceReports.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Reports\GenerateTimeAttendanceReports.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\EmployeeShiftSheduler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\EmployeeShiftSheduler.aspx" />
+  <event action="Analyze" type="Warning" name="EmployeeShiftSheduler.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\EmployeeShiftSheduler.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\EmployeeShiftSheduler.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Roster.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Roster.aspx" />
+  <event action="Analyze" type="Warning" name="Roster.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Roster.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Roster.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Shift.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Shift.aspx" />
+  <event action="Analyze" type="Warning" name="Shift.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Shift.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\Shift.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\ShiftSetup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\ShiftSetup.aspx" />
+  <event action="Analyze" type="Warning" name="ShiftSetup.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\ShiftSetup.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Shifts\ShiftSetup.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\TASMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\TASMasterPage.master" />
+  <event action="Analyze" type="Warning" name="TASMasterPage.master" path="D:\Sino[HRM]\Web\Web\TimeAttendance\TASMasterPage.master">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\TASMasterPage.master'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\Archive.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\Archive.aspx" />
+  <event action="Analyze" type="Warning" name="Archive.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\Archive.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\Archive.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\ConfigureTextFileReading.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\ConfigureTextFileReading.aspx" />
+  <event action="Analyze" type="Warning" name="ConfigureTextFileReading.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\ConfigureTextFileReading.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\ConfigureTextFileReading.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\MonthEnd.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\MonthEnd.aspx" />
+  <event action="Analyze" type="Warning" name="MonthEnd.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\MonthEnd.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\MonthEnd.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\PayrollRawDataTransfer.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\PayrollRawDataTransfer.aspx" />
+  <event action="Analyze" type="Warning" name="PayrollRawDataTransfer.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\PayrollRawDataTransfer.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\PayrollRawDataTransfer.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\TimeOption.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\TimeOption.aspx" />
+  <event action="Analyze" type="Warning" name="TimeOption.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\TimeOption.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\TimeOption.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\YearEnd.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\YearEnd.aspx" />
+  <event action="Analyze" type="Warning" name="YearEnd.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\YearEnd.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Tools\YearEnd.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\DayChanger.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\DayChanger.aspx" />
+  <event action="Analyze" type="Warning" name="DayChanger.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\DayChanger.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\DayChanger.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\InOutChanger.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\InOutChanger.aspx" />
+  <event action="Analyze" type="Warning" name="InOutChanger.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\InOutChanger.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\InOutChanger.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\OTApprove.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\OTApprove.aspx" />
+  <event action="Analyze" type="Warning" name="OTApprove.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\OTApprove.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\OTApprove.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\PostingData.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\PostingData.aspx" />
+  <event action="Analyze" type="Warning" name="PostingData.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\PostingData.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\PostingData.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ReadDeviceOutputFromText.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ReadDeviceOutputFromText.aspx" />
+  <event action="Analyze" type="Warning" name="ReadDeviceOutputFromText.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ReadDeviceOutputFromText.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ReadDeviceOutputFromText.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\RepostingData.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\RepostingData.aspx" />
+  <event action="Analyze" type="Warning" name="RepostingData.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\RepostingData.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\RepostingData.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ShiftChanger.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ShiftChanger.aspx" />
+  <event action="Analyze" type="Warning" name="ShiftChanger.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ShiftChanger.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\ShiftChanger.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\TimeCard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\TimeCard.aspx" />
+  <event action="Analyze" type="Warning" name="TimeCard.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\TimeCard.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\Transaction\TimeCard.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UnderConstruction.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UnderConstruction.aspx" />
+  <event action="Analyze" type="Warning" name="UnderConstruction.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UnderConstruction.aspx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\UnderConstruction.aspx'!</event>
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UserControls\LeaveApproveByHR.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UserControls\LeaveApproveByHR.ascx" />
+  <event action="Analyze" type="Warning" name="LeaveApproveByHR.ascx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\UserControls\LeaveApproveByHR.ascx">The file is read-only: 'D:\Sino[HRM]\Web\Web\TimeAttendance\UserControls\LeaveApproveByHR.ascx'!</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Analyze" type="Success" name="D:\...\Web\" path="D:\Sino[HRM]\Web\Web" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Common.BLL\Common.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Common.BLL" path="D:\Sino[HRM]\Web\DLL\Common.BLL\Common.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Common.DAL\Common.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Common.DAL" path="D:\Sino[HRM]\Web\DLL\Common.DAL\Common.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\HR.DAL\HR.DAL.csproj" />
+  <event action="Analyze" type="Success" name="HR.DAL" path="D:\Sino[HRM]\Web\DLL\HR.DAL\HR.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\HR.BLL\HR.BLL.csproj" />
+  <event action="Analyze" type="Success" name="HR.BLL" path="D:\Sino[HRM]\Web\DLL\HR.BLL\HR.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Leave.DAL\Leave.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Leave.DAL" path="D:\Sino[HRM]\Web\DLL\Leave.DAL\Leave.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Leave.BLL\Leave.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Leave.BLL" path="D:\Sino[HRM]\Web\DLL\Leave.BLL\Leave.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Payroll.DAL\Payroll.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Payroll.DAL" path="D:\Sino[HRM]\Web\DLL\Payroll.DAL\Payroll.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Payroll.BLL\Payroll.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Payroll.BLL" path="D:\Sino[HRM]\Web\DLL\Payroll.BLL\Payroll.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Time.DAL\Time.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Time.DAL" path="D:\Sino[HRM]\Web\DLL\Time.DAL\Time.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\DLL\Time.BLL\Time.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Time.BLL" path="D:\Sino[HRM]\Web\DLL\Time.BLL\Time.BLL.csproj" />
+  <event action="Analyze" type="Success" name="Web" path="D:\Sino[HRM]\Web\Web\Web.sln" />
+  <event action="Upgrade" type="Success" name="Binary References" path="D:\Sino[HRM]\Web\Web\Bin\" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Employee\Employee.aspx" />
+  <event action="Upgrade" type="Success" name="Employee.aspx" path="D:\Sino[HRM]\Web\Web\Common\Employee\Employee.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\ReportCommon.aspx" />
+  <event action="Upgrade" type="Success" name="ReportCommon.aspx" path="D:\Sino[HRM]\Web\Web\Common\ReportCommon.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Common\Reports\PasportVisaStatusReport.aspx" />
+  <event action="Upgrade" type="Success" name="PasportVisaStatusReport.aspx" path="D:\Sino[HRM]\Web\Web\Common\Reports\PasportVisaStatusReport.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\DashBoard.aspx" />
+  <event action="Upgrade" type="Success" name="DashBoard.aspx" path="D:\Sino[HRM]\Web\Web\DashBoard.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CoinDenomination.aspx" />
+  <event action="Upgrade" type="Success" name="CoinDenomination.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Currency\CoinDenomination.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\EmployeePayments.aspx" />
+  <event action="Upgrade" type="Success" name="EmployeePayments.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\EmployeePayments.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\HistoryReports\HistoryReports.aspx" />
+  <event action="Upgrade" type="Success" name="HistoryReports.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\HistoryReports\HistoryReports.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\SalaryAdvanceReport.aspx" />
+  <event action="Upgrade" type="Success" name="SalaryAdvanceReport.aspx" path="D:\Sino[HRM]\Web\Web\Payroll\Reports\SalaryAdvanceReport.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Reports\GenerateTimeAttendanceReports.aspx" />
+  <event action="Upgrade" type="Success" name="GenerateTimeAttendanceReports.aspx" path="D:\Sino[HRM]\Web\Web\TimeAttendance\Reports\GenerateTimeAttendanceReports.aspx" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Upgrade" type="Success" name="Http Handlers" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Upgrade" type="Success" name="Handlers (IIS7+)" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Upgrade" type="Success" name="web.config" path="D:\Sino[HRM]\Web\Web\web.config" />
+  <event action="Upgrade" type="Success" name="D:\...\Web\" path="D:\Sino[HRM]\Web\Web" />
+  <event action="Upgrade" type="Success" name="Web" path="D:\Sino[HRM]\Web\Web\Web.sln" />
+</log>

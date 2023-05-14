@@ -1,0 +1,380 @@
+﻿using System;
+using System.Data;
+using System.Web.UI.WebControls;
+using HRM.Common.BLL;
+using HRM.HR.BLL;
+using System.Drawing;
+using Telerik.Web.UI;
+using DevExpress.Web.Rendering;
+using System.Web.Services;
+using System.Web.Script.Services;
+using System.Web.Script.Serialization;
+
+public partial class Course_CourseType : System.Web.UI.Page
+{
+    #region Security
+
+    private const string ApplicationName = "Common";
+    private const string PageName = "CourseType";
+
+    MksSecurity objSecurity = new MksSecurity();
+
+    #endregion
+
+    Course objCourse = new Course();
+    DataTable dtCourseType = new DataTable();
+    
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblResult.ForeColor = Color.Red;
+
+        if (Session["UserName"] == null)
+        {
+          Response.Redirect("~/SessionTimeout.aspx?DoRedirect=" + System.Web.HttpContext.Current.Request.Url.AbsolutePath);
+        }
+        else
+        {
+            if (IsPostBack == false)
+            {
+                if (objSecurity.GetSpecificAccessRights(Session["UserName"].ToString(), ApplicationName, PageName, HRM.AccessRights.ViewOnly) == false)
+                {
+                    Response.Redirect("~/Common/NoPermissions.aspx");
+                    return;
+                }
+                else
+                {
+                    btnSave.Visible = false;
+                    btnUpdate.Visible = false;
+                    btnDelete.Visible = false;
+                    ViewState["IsModify"] = false;
+                    if (objSecurity.GetSpecificAccessRights(Session["UserName"].ToString(), ApplicationName, PageName, HRM.AccessRights.FullControl) == true)
+                    {
+                        btnSave.Visible = true;
+                        btnUpdate.Visible = true;
+                        btnDelete.Visible = true;
+                        ViewState["IsModify"] = true;
+                    }
+                    else
+                    {
+                        btnSave.Visible = objSecurity.GetSpecificAccessRights(Session["UserName"].ToString(), ApplicationName, PageName, HRM.AccessRights.AddOnly);
+                        btnUpdate.Visible = objSecurity.GetSpecificAccessRights(Session["UserName"].ToString(), ApplicationName, PageName, HRM.AccessRights.EditOnly);
+                        btnDelete.Visible = objSecurity.GetSpecificAccessRights(Session["UserName"].ToString(), ApplicationName, PageName, HRM.AccessRights.DeleteOnly);
+                        if (btnDelete.Visible == true || btnUpdate.Visible == true)
+                        {
+                            ViewState["IsModify"] = true;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        lblResult.Text = string.Empty;
+
+        if (!IsPostBack)
+        {
+            InitializeControls();
+            ViewState["dtCourseType"] = dtCourseType;
+        }
+    }
+
+    #region Methods
+    #region Access Permissions
+    //private void GetUserPermission()
+    //{
+    //    MKSLogin objLogin = new MKSLogin();
+    //    ViewState["FullControl"] = false;
+    //    ViewState["Add"] = false;
+    //    ViewState["Edit"] = false;
+    //    ViewState["Delete"] = false;
+    //    ViewState["ViewOnly"] = false;
+    //    ViewState["None"] = false;
+    //    DataTable dtAccessRights = objLogin.AccessRights(Session["UserName"].ToString(), Convert.ToInt32(Session["LocationId"]), "Language");
+
+    //    if (dtAccessRights.Rows.Count <= 0)
+    //    {
+    //        ViewState["None"] = true;
+    //        Response.Redirect("~/AccessDenied.aspx");
+    //        return;
+    //    }
+    //    else
+    //    {
+    //        for (int i = 0; i < dtAccessRights.Rows.Count; i++)
+    //        {
+    //            string permission = dtAccessRights.Rows[i]["Permission"].ToString();
+    //            switch (permission)
+    //            {
+    //                case "FullControl": ViewState["FullControl"] = true;
+    //                    ViewState["Add"] = true;
+    //                    ViewState["Edit"] = true;
+    //                    ViewState["Delete"] = true;
+    //                    break;
+    //                case "Add": ViewState["Add"] = true;
+    //                    break;
+    //                case "Edit": ViewState["Edit"] = true;
+    //                    break;
+    //                case "Delete": ViewState["Delete"] = true;
+    //                    break;
+    //                case "ViewOnly": ViewState["ViewOnly"] = true;
+    //                    break;
+    //                default:
+    //                    break;
+    //            }
+    //        }
+    //    }
+    //    UserAccessPermissions();
+    //}
+
+    //private void UserAccessPermissions()
+    //{
+    //    if (Convert.ToBoolean(ViewState["ViewOnly"]) == true)
+    //    {
+    //        btnSave.Visible = false;
+    //        btnUpdate.Visible = false;
+    //        btnDelete.Visible = false;
+    //        gvDetails.Columns[0].Visible = false;
+    //        return;
+    //    }
+
+    //    if (Convert.ToBoolean(ViewState["FullControl"]) == true)
+    //    {
+    //        btnSave.Visible = true;
+    //        btnUpdate.Visible = true;
+    //        btnDelete.Visible = true;
+    //        gvDetails.Columns[0].Visible = true;
+    //        return;
+    //    }
+
+    //    if (Convert.ToBoolean(ViewState["Add"]) == true)
+    //    {
+    //        btnSave.Visible = true;
+    //    }
+    //    else
+    //    {
+    //        btnSave.Visible = false;
+    //    }
+
+    //    if (Convert.ToBoolean(ViewState["Edit"]) == true)
+    //    {
+    //        btnUpdate.Visible = true;
+    //        gvDetails.Columns[0].Visible = true;
+    //    }
+    //    else
+    //    {
+    //        btnUpdate.Visible = false;
+    //        gvDetails.Columns[0].Visible = false;
+    //    }
+
+    //    if (Convert.ToBoolean(ViewState["Delete"]) == true)
+    //    {
+    //        btnDelete.Visible = true;
+    //    }
+    //    else
+    //    {
+    //        btnDelete.Visible = false;
+    //    }
+    //} 
+    #endregion
+    private void InitializeControls()
+    {
+        hfCourseTypeId.Value = string.Empty;
+        txtCourseCode.Text = string.Empty;
+        txtCourseName.Text = string.Empty;
+        btnSave.Enabled = true;
+        btnUpdate.Enabled = false;
+        btnDelete.Enabled = false;
+        formContainer.Attributes.CssStyle.Add("height", "54px");
+    }
+
+    private void BindData(DataTable dtTable)
+    {
+        InitializeControls();
+        if (dtTable.Rows.Count > 0)
+        {
+            hfCourseTypeId.Value = dtTable.Rows[0]["CourseTypeID"].ToString();
+            txtCourseCode.Text = dtTable.Rows[0]["CourseTypeCode"].ToString();
+            txtCourseName.Text = dtTable.Rows[0]["CourseTypeName"].ToString();
+        }
+    }
+    #endregion
+
+    #region Buttons
+
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            objCourse.AddCourseType(txtCourseCode.Text, txtCourseName.Text);
+            
+            if (!objCourse.IsError)
+            {
+                btnSave.Enabled = false;
+                lblResult.ForeColor = Color.Green;
+                lblResult.Text = "Successfully Saved.";
+            }
+            else
+            {
+                lblResult.Text = "Unable to Save";
+            }
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+        }
+        catch
+        {
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+            lblResult.Text = "Unable to Save";
+        }
+
+        gvDetail.DataBind();
+        InitializeControls();
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+    }
+
+    protected void btnUpdate_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            objCourse.UpdateCourseType(Convert.ToInt32(hfCourseTypeId.Value), txtCourseCode.Text, txtCourseName.Text);
+            
+            if (!objCourse.IsError)
+            {
+                lblResult.ForeColor = Color.Green;
+                lblResult.Text = "Successfully Updated.";
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+            }
+            else
+            {
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+                lblResult.Text = "Unable to Save";
+            }
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+
+        }
+        catch
+        {
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+            lblResult.Text = "Unable to Save";
+        }
+
+        gvDetail.DataBind();
+        InitializeControls();
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+    }
+
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+        InitializeControls();
+        //formContainer.Attributes.CssStyle.Add("height", "335px");
+    }
+
+    protected void btnDelete_Click(object sender, EventArgs e)
+    {
+        DataTable tblInstite = objCourse.GetCoursesByTypeId(Convert.ToInt32(hfCourseTypeId.Value));
+        if (tblInstite.Rows.Count > 0)
+        {
+            lblResult.Text = "Can not be Delete..! Already assigned to Courses!";
+        }
+        else
+        {
+            objCourse.DeleteCourseType(Convert.ToInt32(hfCourseTypeId.Value));
+
+            if (objCourse.IsError)
+            {
+                lblResult.Text = objCourse.ErrorMsg;
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+            }
+            else
+            {
+                lblResult.ForeColor = Color.Green;
+                lblResult.Text = "Successfully Deleted.";
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+                InitializeControls();
+            }
+        }
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+
+        gvDetail.DataBind();
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+    }
+
+    #endregion
+
+    #region Grid View
+
+    protected void gvDetails_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        
+    }
+
+    #endregion
+    protected void lkSelect_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            InitializeControls();
+            var gridView = ((GridViewTableDataRow)(((LinkButton)sender).Parent.Parent.Parent.Parent)).Grid;
+            var index = ((GridViewTableDataRow)(((LinkButton)sender).Parent.Parent.Parent.Parent)).VisibleIndex;
+            hfCourseTypeId.Value = gvDetail.GetRowValues(index, "CourseTypeID").ToString();
+            txtCourseCode.Text = gvDetail.GetRowValues(index, "CourseTypeCode").ToString();
+            txtCourseName.Text = gvDetail.GetRowValues(index, "CourseTypeName").ToString();
+            btnSave.Enabled = false;
+            btnUpdate.Enabled = true;
+            btnDelete.Enabled = true;
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+        }
+        catch (Exception ex)
+        {
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+            lblResult.Text = "";
+        }
+    }
+    protected void btnUpdate_Click1(object sender, EventArgs e)
+    {
+        try
+        {
+            objCourse.UpdateCourseType(Convert.ToInt32(hfCourseTypeId.Value), txtCourseCode.Text, txtCourseName.Text);
+
+            if (!objCourse.IsError)
+            {
+                lblResult.ForeColor = Color.Green;
+                lblResult.Text = "Successfully Updated.";
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+            }
+            else
+            {
+                formContainer.Attributes.CssStyle.Add("height", "335px");
+                lblResult.Text = "Unable to Save";
+            }
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+
+        }
+        catch
+        {
+            formContainer.Attributes.CssStyle.Add("height", "335px");
+            lblResult.Text = "Unable to Save";
+        }
+
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+        gvDetail.DataBind();
+        InitializeControls();
+        formContainer.Attributes.CssStyle.Add("height", "335px");
+    }
+
+    [WebMethod]
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+    public String downloadExcelFromGrid()
+    {
+
+
+        JavaScriptSerializer js = new JavaScriptSerializer();
+        return js.Serialize("ok");
+    }
+    protected void RadButton1_Click(object sender, EventArgs e)
+    {
+        gvDetail.Columns[3].Visible = false;
+        gvDetail.DataBind();
+        GridExporter.WriteXlsToResponse();
+        GridExporter.Styles.Default.Font.Name = "Arial";
+        GridExporter.Styles.Default.Font.Size = 20;
+      
+    }
+}

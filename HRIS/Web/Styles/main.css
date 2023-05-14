@@ -1,0 +1,577 @@
+/*clr grey*/
+/*clr blue*/
+/*clr white*/
+/*clr grey-2*/
+/*clr dark blue*/
+/*clr light blue*/
+/*clr light blue*/
+/*clr dark blue*/
+/*=======================================
+FONT
+=======================================*/
+/*-----------
+font family
+-----------*/
+/*----------
+
+----------*/
+.navbar-nav {
+  margin: 0px; }
+
+.navbar-default {
+  background: #2ca0da;
+  border-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #186b96; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif; }
+
+.main-wrapper {
+  background: url("../images/logo-bg.png") no-repeat;
+  background-position: right bottom;
+  min-height: 100%;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.logo {
+  padding-top: 35px;
+  padding-bottom: 75px;
+  text-align: center; }
+  @media screen and (max-width: 767px) {
+    .logo {
+      text-align: left; } }
+  .contents-page .logo {
+    padding-top: 0;
+    padding-bottom: 0; }
+    @media screen and (max-width: 767px) {
+      .contents-page .logo {
+        padding-top: 20px; } }
+
+.top-bar {
+  padding-top: 5px; }
+  .top-bar .client-logo img {
+    max-width: 100%; }
+
+h1.splash-main-heading {
+  margin: 0;
+  padding-bottom: 40px;
+  font-size: 48px;
+  font-weight: normal;
+  color: #6d6e71; }
+  h1.splash-main-heading span {
+    color: #2ca0da; }
+
+.wr-products .product-item {
+  display: block;
+  width: 100%;
+  background: #2ca0da;
+  border-radius: 5px;
+  padding-top: 18px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  height: 259px;
+  max-height: 259px; }
+  .wr-products .product-item:hover {
+    background: #186b96;
+    cursor: pointer; }
+  @media screen and (max-width: 768px) {
+    .wr-products .product-item {
+      margin-bottom: 15px; } }
+  .wr-products .product-item h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 15px; }
+    .wr-products .product-item h2 br {
+      display: none; }
+      @media screen and (min-width: 768px) {
+        .wr-products .product-item h2 br {
+          display: block; } }
+
+.txt-center {
+  text-align: center; }
+
+.txt-right {
+  text-align: right; }
+
+footer {
+  background-color: #a0a0a0;
+  position: relative;
+  top: -50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff; }
+  footer p {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.login-fields {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  color: #6d6e71;
+  padding-bottom: 100px; }
+  .login-fields .txt-remember {
+    font-size: 20px; }
+  .login-fields input[type=text],
+  .login-fields input[type=password] {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 22px;
+    color: #6d6e71;
+    padding: 10px 20px 10px 75px;
+    background-image: url(../images/user-icon.png); }
+  .login-fields .lf-filed {
+    position: relative;
+    margin-bottom: 30px; }
+    .login-fields .lf-filed.error input {
+      border: 1px solid #FF0000; }
+    .login-fields .lf-filed span.icon {
+      position: absolute;
+      top: 1px;
+      left: 16px;
+      display: inline-block;
+      background-color: #99999a;
+      padding: 25px 25px 26px 25px;
+      border-radius: 2px 0 0 2px;
+      background-position: 13px 13px;
+      border-right: 1px solid #c4c4c4; }
+      .login-fields .lf-filed span.icon.un {
+        background-image: url(../images/user-icon.png);
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat; }
+      .login-fields .lf-filed span.icon.ps {
+        background-image: url(../images/password-icon.png);
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat; }
+      .login-fields .lf-filed span.icon:after {
+        position: absolute;
+        border: 9px solid transparent;
+        border-left: 9px solid #99999a;
+        width: 0;
+        height: 0;
+        content: " ";
+        top: 16px;
+        left: 50px; }
+  @media screen and (max-width: 767px) {
+    .login-fields .login-controls div:last-child {
+      text-align: left;
+      padding-top: 25px; } }
+
+.select-style {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 380px;
+  margin-left: 15px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff url("../images/select-custom-arrow.png") no-repeat 94.6% 50%; }
+  .error .select-style {
+    border: 1px solid #FF0000; }
+
+.select-company.error .error-text {
+  padding-left: 15px;
+  color: #FF0000; }
+
+.select-style select {
+  font-size: 22px;
+  color: #6d6e71;
+  padding: 10px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.select-style select:focus {
+  outline: none; }
+
+.txt-forgot-password a {
+  padding-top: 15px;
+  color: #6d6e71;
+  font-size: 19px;
+  display: block; }
+
+/* ====================================================================================
+STATUS TOGGLER
+=====================================================================================*/
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden; }
+
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.switch {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px; }
+
+input.cmn-toggle-round + label {
+  padding: 0;
+  width: 71px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 0; }
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: ""; }
+
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: transparent;
+  background-image: url(../images/status-disabled-bg.png);
+  background-repeat: no-repeat;
+  border-radius: 0;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s; }
+
+input.cmn-toggle-round + label:after {
+  width: 32px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin 0.3s;
+  -moz-transition: margin 0.3s;
+  -o-transition: margin 0.3s;
+  transition: margin 0.3s;
+  background-image: url(../images/status-selector.png);
+  background-repeat: no-repeat;
+  top: -3px;
+  left: -6px; }
+
+input.cmn-toggle-round:checked + label:before {
+  background-image: url(../images/status-bg.png);
+  background-repeat: no-repeat; }
+
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 51px;
+  background-image: url(../images/status-selector.png);
+  background-repeat: no-repeat; }
+
+/* ====================================================================================
+end STATUS TOGGLER
+=====================================================================================*/
+.form-button {
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #2ca0da;
+  border-bottom: 2px solid #2993c9;
+  color: #ffffff;
+  padding: 10px 25px; }
+  .form-button:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: #186b96; }
+
+.login-controls {
+  padding-top: 30px; }
+
+.log-out {
+  /*text-align: right;*/
+  position: relative;
+  height: 50px; }
+  .log-out a.log-out-drop {
+    z-index: 1;
+    position: absolute;
+    text-decoration: none;
+    color: #6d6e71;
+    vertical-align: middle;
+    /*border: 1px solid #ddd;*/
+    border-bottom: none;
+    right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    top: 10px; }
+    .log-out a.log-out-drop .fa-user {
+      margin-right: 10px; }
+    .log-out a.log-out-drop .fa-caret-down {
+      margin-left: 15px; }
+    @media screen and (max-width: 767px) {
+      .log-out a.log-out-drop {
+        left: 15px; } }
+  .log-out .log-out-options {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 208px;
+    top: 5px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    right: 10px;
+    display: none;
+    box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; }
+    .log-out .log-out-options a {
+      color: #292929;
+      font-size: 12px;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 5px; }
+      .log-out .log-out-options a .fa {
+        padding: 9px;
+        background: #2ca0da;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 18px;
+        margin-right: 11px; }
+      .log-out .log-out-options a img {
+        margin-right: 10px; }
+
+.available-facility a.af-col-exp {
+  font-size: 44px;
+  padding: 15px; }
+.available-facility .af-tiles {
+  padding: 25px 15px;
+  background: #dfedf4; }
+  .available-facility .af-tiles a {
+    font-size: 15px;
+    padding: 5px 10px;
+    background: #2ca0da;
+    color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 5px; }
+    .available-facility .af-tiles a .fa {
+      font-size: 30px;
+      padding: 5px; }
+
+/* =========== nav bar ===============*/
+.navbar {
+  margin-bottom: -1px;
+  border-radius: 0; }
+
+#submenu {
+  background-color: #186b96;
+  margin-bottom: 20px; }
+
+.collapsing {
+  display: none; }
+
+/* =========== nav bar ===============*/
+/*================================================
+FORM ELEMENTS
+=================================================*/
+.main-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000; }
+
+.form-label, .form-controls label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6d6e71; }
+
+.form-text, .form-controls input[type=text] {
+  border: 1px solid #2ca0da;
+  font-size: 16px;
+  padding: 8px;
+  color: #6d6e71;
+  border-radius: 2px; }
+
+.form-select, .form-controls select {
+  border: 1px solid #2ca0da;
+  font-size: 16px;
+  padding: 8px;
+  color: #6d6e71;
+  border-radius: 2px; }
+
+/*---------------------------------------------------
+CUSTOM RADIO BUTTON OVERRIDES
+----------------------------------------------------*/
+.control-group {
+  display: inline-block;
+  vertical-align: top;
+  background: transparent;
+  text-align: left;
+  box-shadow: none;
+  padding: 0;
+  width: auto;
+  height: auto;
+  margin: 0; }
+
+.control__indicator {
+  background: #2ca0da; }
+
+.control input:checked ~ .control__indicator {
+  background: #2ca0da; }
+
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #2ca0da; }
+
+.control {
+  font-size: 16px;
+  color: #6d6e71;
+  font-weight: normal; }
+
+.hor-form-elements .control {
+  float: left;
+  margin-right: 15px; }
+
+/*--------------------------------------------------
+TABLE
+--------------------------------------------------*/
+.wr-grid .wr-form-control {
+  overflow: auto; }
+.wr-grid .table-controls {
+  padding-right: 5px;
+  box-sizing: border-box;
+  padding-bottom: 20px; }
+  .wr-grid .table-controls a {
+    color: #2684b4;
+    display: inline-block;
+    margin-right: 35px; }
+    .wr-grid .table-controls a .fa {
+      font-size: 31px;
+      vertical-align: middle;
+      padding-right: 5px; }
+    .wr-grid .table-controls a:last-child {
+      margin-right: 0; }
+
+.form-table {
+  width: 100%; }
+  .form-table tr td,
+  .form-table tr th {
+    padding: 20px 35px;
+    font-weight: normal;
+    font-size: 16px; }
+  .form-table tr th {
+    background: #2684b4;
+    color: #ffffff;
+    position: relative; }
+    .form-table tr th:after {
+      border-right: 1px solid #ffffff;
+      content: " ";
+      position: absolute;
+      right: 0;
+      top: 15px;
+      height: 55%; }
+    .form-table tr th:last-child:after {
+      border-right: 0px solid #ffffff; }
+  .form-table tr:nth-child(2n+2) {
+    background: #e8e8e8; }
+  .form-table tr:nth-child(2n+1) {
+    background: #bfbfbf; }
+
+/*===================================================
+EMPLOYEE CARD
+===================================================*/
+.wr-emp-card .emp-card-header {
+  border-radius: 5px 5px 0 0;
+  padding: 17px 25px;
+  background: #2684b4; }
+  .wr-emp-card .emp-card-header h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0; }
+.wr-emp-card .emp-card-mid {
+  background: #eeeeee;
+  padding: 0 25px; }
+  .wr-emp-card .emp-card-mid img.user {
+    max-width: 100%;
+    padding-top: 30px; }
+  .wr-emp-card .emp-card-mid table tr td {
+    padding-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600; }
+    .wr-emp-card .emp-card-mid table tr td:first-child {
+      padding-right: 20px;
+      border-right: 1px solid #cbcbcb; }
+    .wr-emp-card .emp-card-mid table tr td:last-child {
+      color: #888888;
+      padding-left: 20px; }
+  .wr-emp-card .emp-card-mid table tr:first-child td {
+    padding-top: 30px; }
+.wr-emp-card .emp-card-bottom {
+  background: #eeeeee;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 20px;
+  padding-left: 25px; }
+  .wr-emp-card .emp-card-bottom a {
+    font-weight: 600;
+    padding-right: 35px; }
+    .wr-emp-card .emp-card-bottom a .fa {
+      font-size: 31px;
+      vertical-align: middle;
+      padding-right: 5px; }
+
+/*==========================================
+ERROR
+==========================================*/
+.error-text {
+  display: none;
+  color: #FF0000; }
+  .error .error-text {
+    display: block; }
+
+/*=========================================
+STICKY HEADER
+=========================================*/
+#stick-header {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+#stick-header.fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in;
+  z-index: 1000; }
+  #stick-header.fixed + .container-fluid {
+    padding-top: 120px; }
